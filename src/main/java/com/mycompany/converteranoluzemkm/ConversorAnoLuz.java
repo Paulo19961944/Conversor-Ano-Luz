@@ -7,7 +7,7 @@ public class ConversorAnoLuz {
     public static void main(String[] args) {
         // Declaração de variáveis
         double userAnoLuz;
-        BigInteger constAnoLuz = new BigInteger("9454254703200"); // Usando String para inicialização precisa
+        final BigInteger constAnoLuz = new BigInteger("9454254703200"); // Usando String para inicialização precisa
 
         // Configuração do Scanner
         Scanner scanner = new Scanner(System.in);
